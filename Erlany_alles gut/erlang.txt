@@ -1,0 +1,15 @@
+Modele Erlanga
+Model stochastyczny stosowany do analizy ruchu w systemach kolejkowych, zaproponowany przez duńskiego matematyka Agnera Krarupa Erlanga. Najczęściej jest wykorzystywany w analizie ruchu w sieciach telekomunikacyjnych, choć równie dobrze może służyć do analizy obsługi klientów w supermarkecie lub na stacji benzynowej. Modele takie pozwalają oszacować prawdopodobieństwo blokady (sytuacji gdy klient nie może być obsłużony) przy danych parametrach modelu. Wiedza ta może posłużyć do doboru parametrów w sposób, który pozwoli osiągnąć wymaganą jakość usługi (QOS).
+
+Wyróżnia się trzy modele Erlanga: model Erlang B, rozszerzony model Erlang B i model Erlang C.
+
+Model Erlang B
+Jest to najprostszy model, w którym zakłada się, że w momencie blokady żądanie klienta jest anulowane (abonent rezygnuje z rozmowy), dzięki czemu nie tworzy się kolejka. Wciąż jednak klient ten może losowo generować dalsze żądania. Znając średnią wartość ruchu A daną w erlangach możemy obliczyć prawdopodobieństwo blokady.
+
+Rozszerzony Model Erlang B
+Jest to model podobny do poprzedniego, z tym że pewien procent nieobsłużonych żądań jest powtarzanych aż do momentu ich obsługi.
+
+Model Erlang C
+W odróżnieniu od poprzedniego modelu, w modelu C nieobsłużone żądania tworzą kolejkę. Możemy oblićzyć prawdopodobieństwo, że żądanie nie zostanie obsłużone natychmiast, lecz będzie musiało czekać.
+
+W tym programie obliczamy model Erlanga B.

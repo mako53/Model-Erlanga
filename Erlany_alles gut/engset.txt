@@ -1,0 +1,8 @@
+Model Engseta
+Model Engseta jest jednym z klasycznych modeli stosowanych w teorii ruchu telekomunikacyjnego. Jest on używany do analizy systemów z ograniczoną liczbą zasobów, takich jak linie telefoniczne czy kanały komunikacyjne, gdzie liczba dostępnych kanałów jest mniejsza od liczby potencjalnych użytkowników.
+
+Zastosowanie modelu Engseta:
+
+Model Engseta jest stosowany w telekomunikacji do analizy i projektowania systemów z ograniczoną liczbą zasobów, takich jak sieci telefoniczne, sieci komórkowe i inne systemy komunikacyjne. Pozwala on na oszacowanie prawdopodobieństwa blokady i efektywnego zarządzania zasobami w systemie, co jest kluczowe dla zapewnienia odpowiedniej jakości usług (QoS).
+
+Model Engseta jest szczególnie przydatny w sytuacjach, gdzie liczba użytkowników jest porównywalna z liczbą dostępnych zasobów, w przeciwieństwie do modelu Erlanga, który zakłada nieskończoną liczbę użytkowników.

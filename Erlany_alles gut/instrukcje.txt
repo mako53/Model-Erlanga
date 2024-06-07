@@ -1,0 +1,33 @@
+1. Główne okno programu
+Przyciski nawigacyjne:
+Instrukcje: Otwiera nowe okno z instrukcjami obsługi programu.
+Erlang: Otwiera nowe okno z informacjami o modelu Erlanga.
+Engset: Otwiera nowe okno z informacjami o modelu Engseta.
+Sekcja wprowadzania danych: Pod przyciskami znajduje się sekcja wprowadzania danych dla zmiennych modeli.
+Przyciski zmiennych: A, n, B(A,n) - służą do wprowadzania wartości dla poszczególnych zmiennych.
+Przycisk "Pokaż wykres": Pojawia się po wprowadzeniu wartości dla dwóch zmiennych i pozwala na otwarcie okna z wykresem wyników.
+
+2. Model Erlanga B
+Wzór:
+              A^n / n!
+B(A,m) = --------------
+              Σ (A^k / k!)
+            k=0 to n
+
+gdzie:
+- A = obciążenie systemu (w erlangach)
+- n = liczba dostępnych kanałów
+- B(A, n) = prawdopodobieństwo blokady
+
+Wzór opisuje prawdopodobieństwo, że nowe połączenie zostanie zablokowane w systemie z m kanałami przy obciążeniu A erlangów.
+
+3. Zakres zmiennych modelu Erlang B
+Obciążenie (A): Mierzone w erlangach, reprezentuje natężenie ruchu w systemie. Zakres: A≥0.
+Liczba kanałów (n): Liczba dostępnych kanałów (zasobów) w systemie. Zakres: n≥1.
+Prawdopodobieństwo blokady (B): Prawdopodobieństwo, że nowe połączenie zostanie zablokowane. Zakres:0≤B≤1.
+
+4. Wprowadzanie danych w kalkulatorze
+W kalkulatorze należy podać wartości dwóch zmiennych, a trzecia zmienna zostanie obliczona automatycznie. Na przykład:
+
+Jeśli podasz wartość obciążenia (A) i liczby kanałów (n), program obliczy prawdopodobieństwo blokady (B).
+
