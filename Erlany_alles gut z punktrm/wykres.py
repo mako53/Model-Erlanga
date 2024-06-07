@@ -26,7 +26,7 @@ def generate_graph(x, y, lines, graph,x2=None,y2=None):
         plt.ylabel('Traffic')
 
     if x2 is not None and y2 is not None:
-        plt.scatter(x2, y2, color='red', label='Red Points')
+        plt.scatter(x2, y2, color='red',zorder=5, label='Podany punkt')
 
     plt.legend()
     plt.show()
